@@ -22,6 +22,7 @@
 #content4,
 #content5,
 #content6 {
+  z-index:1000 !important;
   position: absolute;
   overflow: hidden;
   padding-bottom: 1rem;
@@ -146,6 +147,7 @@ body {
 #hotspots4:checked~#content4,
 #hotspots5:checked~#content5,
 #hotspots6:checked~#content6 {
+  z-index:1000 !important;
   display: block;
   margin: 2rem;
   width: 90%;
